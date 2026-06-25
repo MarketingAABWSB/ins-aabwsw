@@ -41,7 +41,9 @@ const resources = {
         "b3_title": "Transaksi Fleksibel",
         "b3_desc": "Transaksi fleksibel sama ada secara tunai atau online.",
         "b4_title": "Notifikasi Peringatan",
-        "b4_desc": "Pelanggan mendapat notifikasi maklumat tamat tempoh insurans."
+        "b4_desc": "Pelanggan mendapat notifikasi maklumat tamat tempoh insurans.",
+        "b5_title": "Ansuran Fleksibel",
+        "b5_desc": "Bayar secara ansuran melalui kemudahan SPayLater, Atome dan Direct Lending."
       },
       "steps": {
         "title": "Cara Pembaharuan",
@@ -50,7 +52,7 @@ const resources = {
         "s2_title": "Terima Sebutharga",
         "s2_desc": "Kami akan menyediakan sebut harga dengan pantas.",
         "s3_title": "Pilih Kaedah Bayaran",
-        "s3_desc": "Tunai, online banking atau ansuran.",
+        "s3_desc": "Tunai, online banking atau ansuran menggunakan SPayLater, Atome dan Direct Lending.",
         "s4_title": "Pembaharuan Selesai",
         "s4_desc": "Roadtax dan insurans anda diperbaharui dengan mudah."
       },
@@ -119,7 +121,9 @@ const resources = {
         "b3_title": "Flexible Transactions",
         "b3_desc": "Flexible transaction options, both cash and online.",
         "b4_title": "Expiry Notifications",
-        "b4_desc": "Receive automated notifications before your insurance expires."
+        "b4_desc": "Receive automated notifications before your insurance expires.",
+        "b5_title": "Easy Installments",
+        "b5_desc": "Pay in installments using SPayLater, Atome, and Direct Lending."
       },
       "steps": {
         "title": "How to Renew",
@@ -128,7 +132,7 @@ const resources = {
         "s2_title": "Receive Quotation",
         "s2_desc": "We will provide a quotation quickly.",
         "s3_title": "Choose Payment Method",
-        "s3_desc": "Cash, online banking, or installments.",
+        "s3_desc": "Cash, online banking, or installments using SPayLater, Atome, and Direct Lending.",
         "s4_title": "Renewal Complete",
         "s4_desc": "Your roadtax and insurance are easily renewed."
       },
