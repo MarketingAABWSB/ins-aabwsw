@@ -38,6 +38,8 @@ function App() {
           <nav className="nav">
             <a href="#">{t('nav.home')}</a>
             <a href="#benefits">{t('nav.benefits')}</a>
+            <a href="#steps">{t('nav.steps')}</a>
+            <a href="#providers">{t('nav.providers')}</a>
             <a href="#installments">{t('nav.installments')}</a>
             <a href="#footer">{t('nav.contactUs')}</a>
           </nav>
@@ -153,8 +155,101 @@ function App() {
           </div>
         </section>
 
+        {/* ─── STEPS ─── */}
+        <section id="steps" className="steps-section">
+          <div className="container">
+            <div className="section-header animate-on-scroll">
+              <h2>{t('steps.title')}</h2>
+            </div>
+            <div className="steps-timeline">
+              <div className="timeline-item animate-on-scroll">
+                <div className="timeline-number">1</div>
+                <div className="timeline-content">
+                  <h3>{t('steps.s1_title')}</h3>
+                  <p>{t('steps.s1_desc')}</p>
+                </div>
+              </div>
+              <div className="timeline-item animate-on-scroll">
+                <div className="timeline-number">2</div>
+                <div className="timeline-content">
+                  <h3>{t('steps.s2_title')}</h3>
+                  <p>{t('steps.s2_desc')}</p>
+                </div>
+              </div>
+              <div className="timeline-item animate-on-scroll">
+                <div className="timeline-number">3</div>
+                <div className="timeline-content">
+                  <h3>{t('steps.s3_title')}</h3>
+                  <p>{t('steps.s3_desc')}</p>
+                </div>
+              </div>
+              <div className="timeline-item animate-on-scroll">
+                <div className="timeline-number">4</div>
+                <div className="timeline-content">
+                  <h3>{t('steps.s4_title')}</h3>
+                  <p>{t('steps.s4_desc')}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ─── PROVIDERS ─── */}
+        <section id="providers" className="providers-section">
+          <div className="container">
+            <div className="section-header animate-on-scroll">
+              <h2>{t('providers.title')}</h2>
+              <p className="providers-desc">{t('providers.desc')}</p>
+            </div>
+            <div className="providers-marquee-container animate-on-scroll">
+              <div className="providers-marquee">
+                {/* Set 1 */}
+                <div className="provider-card">
+                  <img src="/asssets/etiqa.png" alt="Etiqa Logo" className="provider-logo" />
+                </div>
+                <div className="provider-card">
+                  <img src="/asssets/allianz.png" alt="Allianz Logo" className="provider-logo" />
+                </div>
+                <div className="provider-card">
+                  <img src="/asssets/zurich.png" alt="Zurich Logo" className="provider-logo" />
+                </div>
+                <div className="provider-card">
+                  <img src="/asssets/takaful.png" alt="Takaful Malaysia Logo" className="provider-logo" />
+                </div>
+                <div className="provider-card">
+                  <img src="/asssets/kurnia.png" alt="Kurnia Logo" className="provider-logo" />
+                </div>
+                
+                {/* Set 2 (Duplicate for infinite scroll) */}
+                <div className="provider-card">
+                  <img src="/asssets/etiqa.png" alt="Etiqa Logo" className="provider-logo" />
+                </div>
+                <div className="provider-card">
+                  <img src="/asssets/allianz.png" alt="Allianz Logo" className="provider-logo" />
+                </div>
+                <div className="provider-card">
+                  <img src="/asssets/zurich.png" alt="Zurich Logo" className="provider-logo" />
+                </div>
+                <div className="provider-card">
+                  <img src="/asssets/takaful.png" alt="Takaful Malaysia Logo" className="provider-logo" />
+                </div>
+                <div className="provider-card">
+                  <img src="/asssets/kurnia.png" alt="Kurnia Logo" className="provider-logo" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* ─── INSTALLMENTS (Redesigned Premium Fintech) ─── */}
         <section id="installments" className="installments-section">
+          {/* SVG Wave Divider */}
+          <div className="wave-divider-top">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" className="shape-fill"></path>
+            </svg>
+          </div>
+
           {/* Ambient Glow Effects */}
           <div className="installments-bg-glow glow-1"></div>
           <div className="installments-bg-glow glow-2"></div>
@@ -208,6 +303,25 @@ function App() {
                 </div>
                 <span>Proses Mudah</span>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ─── STRONG CTA ─── */}
+        <section className="cta-section">
+          <div className="container cta-inner animate-on-scroll">
+            <h2>{t('cta.title')}</h2>
+            <p>{t('cta.desc')}</p>
+            <div className="cta-actions">
+              <a href="https://api.whatsapp.com/send?phone=60166707288&text=Hai.%20Saya%20nak%20tanya%20tentang%20insurance" target="_blank" rel="noopener noreferrer" className="btn btn-yellow btn-large">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style={{ marginRight: '8px' }}>
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z" />
+                </svg>
+                {t('cta.btn1')}
+              </a>
+              <a href="https://api.whatsapp.com/send?phone=60166707288&text=Hai.%20Saya%20nak%20tanya%20tentang%20insurance" target="_blank" rel="noopener noreferrer" className="btn btn-outline btn-large">
+                {t('cta.btn2')}
+              </a>
             </div>
           </div>
         </section>

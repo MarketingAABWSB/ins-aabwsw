@@ -21,6 +21,8 @@ const resources = {
       "nav": {
         "home": "Utama",
         "benefits": "Faedah",
+        "steps": "Cara",
+        "providers": "Syarikat",
         "installments": "Ansuran",
         "partners": "Rakan Kongsi",
         "quote": "Dapatkan Sebut Harga",
@@ -40,6 +42,27 @@ const resources = {
         "b3_desc": "Transaksi fleksibel sama ada secara tunai atau online.",
         "b4_title": "Notifikasi Peringatan",
         "b4_desc": "Pelanggan mendapat notifikasi maklumat tamat tempoh insurans."
+      },
+      "steps": {
+        "title": "Cara Pembaharuan",
+        "s1_title": "Hantar Maklumat Kenderaan",
+        "s1_desc": "Berikan nombor pendaftaran atau salinan geran.",
+        "s2_title": "Terima Sebutharga",
+        "s2_desc": "Kami akan menyediakan sebut harga dengan pantas.",
+        "s3_title": "Pilih Kaedah Bayaran",
+        "s3_desc": "Tunai, online banking atau ansuran.",
+        "s4_title": "Pembaharuan Selesai",
+        "s4_desc": "Roadtax dan insurans anda diperbaharui dengan mudah."
+      },
+      "providers": {
+        "title": "Pilihan Insurans & Takaful Yang Luas",
+        "desc": "Kami membantu pelanggan dalam proses pembaharuan insurans dan roadtax melalui pelbagai pilihan syarikat insurans dan takaful yang tersedia di Malaysia."
+      },
+      "cta": {
+        "title": "Dapatkan Sebutharga Percuma Hari Ini",
+        "desc": "Hanya ambil masa kurang daripada 5 minit untuk mendapatkan sebut harga pembaharuan roadtax dan insurans anda.",
+        "btn1": "WhatsApp Sekarang",
+        "btn2": "Dapatkan Sebutharga"
       },
       "installments": {
         "title": "Bayaran Ansuran Mudah",
@@ -76,6 +99,8 @@ const resources = {
       "nav": {
         "home": "Home",
         "benefits": "Benefits",
+        "steps": "Steps",
+        "providers": "Providers",
         "installments": "Installments",
         "partners": "Partners",
         "quote": "Get a Quote",
@@ -95,6 +120,27 @@ const resources = {
         "b3_desc": "Flexible transaction options, both cash and online.",
         "b4_title": "Expiry Notifications",
         "b4_desc": "Receive automated notifications before your insurance expires."
+      },
+      "steps": {
+        "title": "How to Renew",
+        "s1_title": "Submit Vehicle Details",
+        "s1_desc": "Provide your registration number or a copy of the grant.",
+        "s2_title": "Receive Quotation",
+        "s2_desc": "We will provide a quotation quickly.",
+        "s3_title": "Choose Payment Method",
+        "s3_desc": "Cash, online banking, or installments.",
+        "s4_title": "Renewal Complete",
+        "s4_desc": "Your roadtax and insurance are easily renewed."
+      },
+      "providers": {
+        "title": "Wide Range of Insurance & Takaful Options",
+        "desc": "We assist customers in the insurance and roadtax renewal process through a wide selection of insurance and takaful companies available in Malaysia."
+      },
+      "cta": {
+        "title": "Get a Free Quote Today",
+        "desc": "It takes less than 5 minutes to get a roadtax and insurance renewal quote.",
+        "btn1": "WhatsApp Now",
+        "btn2": "Get a Quote"
       },
       "installments": {
         "title": "Easy Installment Payments",
